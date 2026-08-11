@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local databases and vector stores
+*.sqlite
+*.sqlite3
+*.db
+chroma/
+.chroma/
+data/runtime/
+data/vectorstore/
+
+# Locally cloned upstream repositories used for knowledge extraction
+data/raw/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Office source files are kept locally unless explicitly requested
+*.xlsx
+*.pptx
+*.docx
+
+# Local-only materials
+materials/
